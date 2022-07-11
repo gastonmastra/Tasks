@@ -1,1 +1,6 @@
-<p>{{data}}</p>
+<mat-card (click)="mostrarTarea()">
+    <mat-card-title>{{ data.name }}</mat-card-title>
+    <mat-card-content>
+        <mat-card-subtitle>Desde: {{ data.since | date: 'dd-MM-YYYY' }}</mat-card-subtitle>
+    </mat-card-content>
+</mat-card>

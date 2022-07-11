@@ -1,0 +1,12 @@
+*{
+    font-family: "Century Gothic", CenturyGothic
+}
+
+task, mat-card{
+    margin: 20px 0;
+    display: block;
+}
+
+.btn-add{
+    float: right;
+}

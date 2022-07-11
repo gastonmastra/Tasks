@@ -1,4 +1,8 @@
-<mat-card>
-  <mat-card-title>Tasks</mat-card-title>
-  <task *ngFor="let task of tasks" [data]="task"></task>
-</mat-card>
+<div class="main-div">
+  <mat-card>
+    <mat-card-title>
+      Tasks
+    </mat-card-title>
+    <router-outlet></router-outlet>
+  </mat-card>
+</div>

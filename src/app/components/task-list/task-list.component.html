@@ -1,0 +1,5 @@
+<button class="btn btn-warning btn-add" (click)="addTask" routerLink="new">Agregar</button>
+<task *ngFor="let task of tasks" [data]="task"></task>
+<mat-card *ngIf="tasks.length == 0">
+    <mat-card-title>No hay tareas.</mat-card-title>
+</mat-card>

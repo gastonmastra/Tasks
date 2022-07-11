@@ -1,0 +1,16 @@
+<button class="btn btn-warning btn-cancel" routerLink="">Cancelar</button>
+<form>
+    <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" class="form-control" id="name" formControlName="name">
+        <div *ngIf="Name?.touched">
+            asdasd
+            <p class="error" *ngIf="Name?.hasError('required')">Debe ingresar un nombre</p>
+        </div>
+        <label for="description">Descripción</label>
+        <textarea class="form-control" id="description" rows="3" fromControlName="description"></textarea>
+        <label for="dateEnd">Fecha de cierre</label>
+        <input type="date" class="form-control" id="dateEnd" fromControlName="date">
+    </div>
+    <button type="submit" class="btn btn-success mt-2">Agregar</button>
+</form>

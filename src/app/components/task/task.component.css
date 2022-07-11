@@ -1,0 +1,18 @@
+*{
+    font-family: "Century Gothic", CenturyGothic
+}
+
+mat-card-subtitle{
+    color: black;
+}
+
+mat-card{
+    background-color: beige;
+    cursor: pointer;
+    border-left: 5px solid orange;
+    color: darkcyan;
+}
+
+mat-card-title {
+    font-weight: bold;
+}

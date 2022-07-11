@@ -1,0 +1,17 @@
+*{
+    font-family: "Century Gothic", CenturyGothic
+}
+
+.btn-cancel{
+    float: right;
+}
+
+label{
+    margin: 3px 0 0 0;
+    font-size: 1.25rem;
+}
+
+.error {
+    color:brown;
+    font-weight: bold;
+}

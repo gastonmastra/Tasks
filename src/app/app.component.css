@@ -1,0 +1,20 @@
+.main-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    font-family: "Century Gothic", CenturyGothic
+}
+
+mat-card{
+    width: 600px;
+    background-color: aqua;
+    color: darkcyan;
+}
+
+mat-card-title{
+    font-weight: bolder;
+    display: inline-block
+}

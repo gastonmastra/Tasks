@@ -15,4 +15,8 @@ export class TaskComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  mostrarTarea(){
+    console.log(this.data)
+  }
+
 }
